@@ -1,0 +1,45 @@
+body#www #main {background-image:none !important;margin:0 0 !important}
+#election-guide-wrapper{padding:10px 0px 60px 0px;font-family: Verdana, Geneva, sans-serif;height:617px}
+/* Election Grid */
+a.election-guide-header{padding-left:10px;}
+h1.ec-smooth-header {font-family: Verdana, Geneva, sans-serif;font-size:20px;text-align:center}
+#whats-at-stake-header {margin-bottom:14px}
+#election-grid {width:480px;margin:0 auto}
+#election-grid .eg-item {position:relative;float:left;margin:2px 2px;cursor:pointer;width:92px;height:105px}
+/*#election-grid .eg-item .eg-span-text {position:absolute;width:70px;z-index:10;bottom:0;left:1px;font-size:10px;color:#fff;}*/
+#election-grid .eg-item img{border:1px solid #ccc;position:absolute}
+#election-grid .eg-item .photo-background {z-index:1;width:92px;height:105px;padding:10px;background-color:white;position:absolute;top:-10px;left:-10px;border:1px solid #ddd}
+.election-red {background-color:#ff0700}
+.election-red-border{border:1px solid #ff0700}
+.election-blue {background-color:#0171d0}
+.election-blue-border{border:1px solid #0171d0}
+.election-border-guides-bottom {border-top:2px solid #FF0700;border-bottom:2px solid #0171D0;padding-bottom:3px;margin-bottom:10px}
+.election-border-guides-top {border-top:2px solid #FF0700;border-bottom:2px solid #0171D0;padding-bottom:3px;margin-top:10px}
+#election-grid-single-person {float:left;margin-top:37px;padding:0 20px;}
+#eg-single-person #eg-video-left {width:500px}
+#eg-content-right {float:right;width:229px;font-family: "Arial Narrow", Arial, sans-serif;}
+#eg-content-right h1 {font-family:inherit;font-size:26px;font-weight:bold;color:#333}
+#eg-content-right h2 {font-family:inherit;font-size:18px;font-style:italic;color:#333}
+#fancybox-wrap{position:fixed !important;top:50% !important;margin-top:-141px}
+
+/*Fix Fancy box  
+.fancybox-lock .fancybox-overlay {overflow: auto !important; overflow-y:auto !important}
+.fancybox-lock {overflow:auto !important}
+body {margin-right:0px !important}
+*/
+
+/* Election Guide Helper Classes */
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.total-transparent{
+   	zoom: 1;
+        filter: alpha(opacity=0);
+        opacity: 0.0;
+
+}
+
+.hidden {display:none}
